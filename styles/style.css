@@ -1,0 +1,119 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* default css  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1320px;
+    background-color: #b94c4c;
+    border-radius: 30px;
+    margin-bottom: 130px;
+}
+/* home css start  */
+.home{
+    display: flex;
+    align-items: center;
+}
+.home-details{
+    padding: 110px 13px 110px 105px;
+}
+.home-title{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.home-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.button {
+    background-color:#DD0000;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+}
+.fa-chevron-right{
+    color: #fff;
+    margin-left: 5px;
+}
+.home-thumbnail img{
+    width: 610px;
+    height: 670px;
+    position: relative;
+    top: 12px;
+
+}
+.home-thumbnail{
+    padding: 33px 65px 0 13px;
+}
+/* home css end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
