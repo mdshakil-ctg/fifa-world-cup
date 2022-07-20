@@ -4,15 +4,18 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     width: 1320px;
-    background-color: #b94c4c;
+    background-color: #161616;
+    color: #fff;
     border-radius: 30px;
     margin-bottom: 130px;
 }
@@ -23,6 +26,7 @@ main{
 }
 .home-details{
     padding: 110px 13px 110px 105px;
+    color: #fff;
 }
 .home-title{
     font-size: 70px;
@@ -63,25 +67,131 @@ main{
     padding: 33px 65px 0 13px;
 }
 /* home css end  */
+/* aside css  */
+.blog-section{
+    background-color: #fff;
+}
+.col-25{
+    width: 25%;
+    
+}
+.col-75{
+    width: 75%;
+    margin-left: 24px;
+}
+.main-blog{
+    display: flex;
+}
 
+.navigation-menu{
+    background-color: #990f0f;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
 
+.pages{
+    list-style: none;
+    background-color: #fff;
+    padding: 24px;
+    margin: 15px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+.pages a{
+    text-decoration: none;
+    color: #161616;
+    font-size: 20px;
+    font-weight: 500;
+}
+#focus{
+    background-color: yellow;
+}
+/* aside css end  */
 
+/* blog css start  */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.blog{
+    color: #1E1E1E;
+    width: 312px;
+    box-shadow: 6px 6px 22px gray;
+    border-radius: 10px;
 
+}
+.blog-thumbnail img{
+    width: 312px;
+    height: 175px;
+}
+.blog-details{
+    padding: 20px ;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.transfer a{
+    text-decoration: none;
+    color: #161616;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 2px 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.blog-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.blog-comments{
+    font-size:16px;
+}
+.blog-comments .fa-clock{
+    margin-right: 5px;
+    color: #e9d3be;
+    font-size: 18px;
+}
+.blog-comments .fa-comment-dots{
+    margin-left: 15px;
+    margin-right: 5px;
+    color: #e9d3be;
+    font-size: 18px;
+}
+/* blog css end  */
+/* footer css start  */
+footer{
+    text-align: center;
+    background-color: #c98585;
+    padding: 30px;
+}
+.footer-heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+.contact-info{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #d4beaf;
+}
+.social-info{
+    margin-top: 10px;
+}
+.social-info a{
+    text-decoration: none;
+}
+.social-info a i{
+    color: rgb(86, 131, 68);
+    font-size: 40px;
+    margin: 30px 10px;
+    border-radius: 50%; 
+}
+/* footer css end  */
 
 
 
